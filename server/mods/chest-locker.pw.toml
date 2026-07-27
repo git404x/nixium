@@ -1,0 +1,13 @@
+name = "Chest Locker"
+filename = "chest-locker-v3.2.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/OEYAd6W9/versions/OEi430J0/chest-locker-v3.2.3.jar"
+hash-format = "sha512"
+hash = "02bcda3674c39233400d67f8b21a00de60b2212254987e74a3d088a7ab80e561fa65b2222212ed1a8f84ee4fe2732023bb66658d7c5d5db36ab7a5108b1b10bd"
+
+[update]
+[update.modrinth]
+mod-id = "OEYAd6W9"
+version = "OEi430J0"

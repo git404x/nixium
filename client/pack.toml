@@ -1,0 +1,13 @@
+name = "Nixium Client"
+author = "git404x"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "9bd875aefbeaf69e5bce621ed085b9dae66f6cfaba6116d6f9e110ba95d1c33f"
+
+[versions]
+fabric = "0.19.3"
+minecraft = "26.1.2"
