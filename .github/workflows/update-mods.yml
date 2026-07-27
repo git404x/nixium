@@ -1,0 +1,80 @@
+name: Update Mods
+
+on:
+  schedule:
+    - cron: '0 0 * * 0' # Weekly
+  workflow_dispatch:
+
+jobs:
+  update-mods:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Nix
+        uses: cachix/install-nix-action@v25
+        with:
+          nix_path: nixpkgs=channel:nixos-unstable
+
+      - name: Install Packwiz and jq
+        run: |
+          nix profile install nixpkgs#packwiz nixpkgs#jq
+
+      - name: Update Server Mods
+        run: |
+          cd server
+          packwiz update --all
+
+      - name: Update Client Mods
+        run: |
+          cd client
+          packwiz update --all
+
+      - name: Update Hashes
+        run: |
+          chmod +x update.sh
+          ./update.sh
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update mods and hashes"
+          file_pattern: "server/* client/* versions.json"
+
+      - name: Build and Export Modpacks
+        id: build
+        run: |
+          MC_VER=$(grep -Po 'minecraft = "\K[^"]+' server/pack.toml)
+          FABRIC_VER=$(grep -Po 'fabric = "\K[^"]+' server/pack.toml)
+          DATE=$(date +'%Y-%m-%d')
+          TAG="v${MC_VER}-mod-update-${DATE}"
+          
+          cd server
+          packwiz modrinth export -o ../Nixium-Server-${MC_VER}.mrpack
+          cd ../client
+          packwiz modrinth export -o ../Nixium-Client-${MC_VER}.mrpack
+          cd ..
+          
+          echo "mc_ver=$MC_VER" >> $GITHUB_OUTPUT
+          echo "fabric_ver=$FABRIC_VER" >> $GITHUB_OUTPUT
+          echo "tag=$TAG" >> $GITHUB_OUTPUT
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.build.outputs.tag }}
+          name: Nixium Modpack - Minecraft ${{ steps.build.outputs.mc_ver }}
+          body: |
+            ### Automated Mod Update
+            **Minecraft Version**: ${{ steps.build.outputs.mc_ver }}
+            **Fabric Loader**: ${{ steps.build.outputs.fabric_ver }}
+            
+            This release contains the automatically updated mods for the Nixium Server and Nixium Client.
+          files: |
+            Nixium-Server-*.mrpack
+            Nixium-Client-*.mrpack
+          draft: false
+          prerelease: false
