@@ -27,12 +27,12 @@ jobs:
       - name: Update Server Mods
         run: |
           cd server
-          packwiz update --all
+          packwiz update --all --yes
 
       - name: Update Client Mods
         run: |
           cd client
-          packwiz update --all
+          packwiz update --all --yes
 
       - name: Update Hashes
         run: |
