@@ -86,7 +86,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithostitched.pw.toml"
-hash = "5685e39ae2dcdf282721e19d624ec5510abbf2925df9cd38afeb3b0ada0e59fc"
+hash = "c622bbe8898ba1e240dd6536c1ab7c2b631cec802c052e4084e193d80da38476"
 metafile = true
 
 [[files]]
@@ -141,7 +141,7 @@ metafile = true
 
 [[files]]
 file = "mods/yungs-api.pw.toml"
-hash = "3dd209bc8e97424c37b0213e42b9d26dc475ca571346501adc83484e51e2a1f3"
+hash = "d957a13745b53f4fadad26ce48b6bb0652960ba4d9ef45c051ebeb408d0d3de0"
 metafile = true
 
 [[files]]
