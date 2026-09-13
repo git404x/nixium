@@ -3,11 +3,11 @@ filename = "YungsBetterEndIsland-26.1.2-Fabric-4.1.0.jar"
 side = "server"
 
 [download]
-url = "https://cdn.modrinth.com/data/2BwBOmBQ/versions/NRGSdwmo/YungsBetterEndIsland-26.1.2-Fabric-4.1.0.jar"
+url = "https://cdn.modrinth.com/data/2BwBOmBQ/versions/382LcHvk/YungsBetterEndIsland-26.1.2-Fabric-4.1.0.jar"
 hash-format = "sha512"
-hash = "3d05be49fdd9ab0e0049f4754fadb44054ac1194e2607b1cdd2b892f4296c53c6008dbbdf7ce9ab24131147cf576fd2ec2119fea964978e6761643bb754f4cde"
+hash = "953e24fd3493955c672355c2c58deb3d8a4e571a9eb45f4882ab3244bb2121b0506b0d1baf3ce433f2b4d7e99207ce9cbedac1716132cb2e1efedff5a50917dc"
 
 [update]
 [update.modrinth]
 mod-id = "2BwBOmBQ"
-version = "NRGSdwmo"
+version = "382LcHvk"
