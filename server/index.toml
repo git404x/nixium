@@ -11,7 +11,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "8c547f1e4ca090a7ca4e4a690d6296ef245f41f10851860319ea1b1066b82e73"
+hash = "2f528064285af8c6da4aaa18913c40acaf8992110754196bf8cc77ef75a32c23"
 metafile = true
 
 [[files]]
@@ -31,7 +31,7 @@ metafile = true
 
 [[files]]
 file = "mods/cristel-lib.pw.toml"
-hash = "288e36db1236f9fdf52278eae50ca4614861ac4b8e2d3d65cfbcb860292d66bf"
+hash = "b6bde01f13039d68615fdc58c553dfbcff56c469b9358624a6e65b3f62e51953"
 metafile = true
 
 [[files]]
