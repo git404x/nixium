@@ -61,7 +61,7 @@ metafile = true
 
 [[files]]
 file = "mods/geophilic.pw.toml"
-hash = "e56f8bbfe55aa00d09e341913cba870fb6218fba8df4a136f2443705982bce1f"
+hash = "a25c9bea00a19293f8b2c5958dea71e60fbe6db7800693862c3e8f624750f4b6"
 metafile = true
 
 [[files]]
@@ -86,7 +86,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithostitched.pw.toml"
-hash = "5eac492b5104ff088d0bf3127ac191b5c258ac11787957fe6fd169a07e2da8c9"
+hash = "86da04176ebffd039db432d8af7792f7b1399dcefdc72e377cc5f23bdb1ade8b"
 metafile = true
 
 [[files]]
@@ -106,7 +106,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "0005e6e1688df16e75b828fba40c76f1c15f4c2a8ffb9a1ad0b1149821cd5302"
+hash = "6b68ddb23f1306e5f73e89d48e7bea8bf97eb136721b9b6cd57f235dac01e97b"
 metafile = true
 
 [[files]]
