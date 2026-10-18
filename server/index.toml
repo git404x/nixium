@@ -6,7 +6,7 @@ hash = "ba61d0025d5b3b4fa88c7401f19262828eea98ff5bdfff8f3500c3f45aa18473"
 
 [[files]]
 file = "mods/anti-xray.pw.toml"
-hash = "1d07aae485a2a92527e66367b656e743ec6e84471296f2f93bee163de3eb5460"
+hash = "595ff9b19f76efddc2656c7854f94450aa6ca0d468e971ba60b3bb7d6d3c9ca5"
 metafile = true
 
 [[files]]
@@ -86,7 +86,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithostitched.pw.toml"
-hash = "86da04176ebffd039db432d8af7792f7b1399dcefdc72e377cc5f23bdb1ade8b"
+hash = "78ff9f108dd3665755b1ab88706f28343ebe3f0a82e4ee959a68090471ffc876"
 metafile = true
 
 [[files]]
