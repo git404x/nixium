@@ -102,7 +102,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "6b68ddb23f1306e5f73e89d48e7bea8bf97eb136721b9b6cd57f235dac01e97b"
+hash = "c94c4440d991703ff18a8eaa2a4ec0a18b4a0078f694eb582ad6d530052f9cb7"
 metafile = true
 
 [[files]]
@@ -117,7 +117,7 @@ metafile = true
 
 [[files]]
 file = "mods/sound-physics-remastered.pw.toml"
-hash = "7560a0a8d7737d587fc2e3484e5573a743988549c2ce5f24746f8ea816cad5c9"
+hash = "0a051fe5db98c382c1505cea43839b6950824e6fe5ec1cfd2e24eb0e6bd57932"
 metafile = true
 
 [[files]]
@@ -142,12 +142,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "b5a197fbefddb6093f4d409aee45913c3fbc95cac59e76c5d3a702b74ed022f6"
+hash = "7db6314de05ed9a0106c21b56348b2359014b348dcc6bea052107ff49cf16002"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "b6d9c07b5fafaa81384f05befc0bba711f16e7b211e728d57c33f2e5c567a512"
+hash = "b9568a05030e74d07f6cc8a457aec71ac8ceccdc778b1f12b9f4095dded99b39"
 metafile = true
 
 [[files]]
@@ -182,7 +182,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/fresh-animations.pw.toml"
-hash = "213428b7676adfaa1c59fcfe93e6e7f3d0257e236f32a5a245eb0fc966e1b218"
+hash = "435a3f840613486ed00c68c6eea16324083b9a5a745503b22942d6b53c06b5ed"
 metafile = true
 
 [[files]]
