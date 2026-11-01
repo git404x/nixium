@@ -102,12 +102,12 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "c94c4440d991703ff18a8eaa2a4ec0a18b4a0078f694eb582ad6d530052f9cb7"
+hash = "bbaa85c3c6df3ae26e1416a92f3ecf9ff18850f479611299b67a828048edf466"
 metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "734a061544bad93b004eb110f67de8e99651f2a0d97533101ce44dbe66b2b619"
+hash = "7a0a8196a1d716d6b6b594287cc21ee3fb615251ea9083e1f54f6da1e6b4e2b0"
 metafile = true
 
 [[files]]
@@ -142,12 +142,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "7db6314de05ed9a0106c21b56348b2359014b348dcc6bea052107ff49cf16002"
+hash = "2c259e6cd6c5cf079f60bc19b1502429049f43b620fe47d09f60f7cfd258d2e7"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "b9568a05030e74d07f6cc8a457aec71ac8ceccdc778b1f12b9f4095dded99b39"
+hash = "273c3ad8fc33ebc3e2540df8e89f95161a3f6b23479364e3587ede5620fef010"
 metafile = true
 
 [[files]]
@@ -177,7 +177,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/fresh-animations-extensions.pw.toml"
-hash = "739f03f8af2fa7746886d62e7f3ea25a773b5775c74b2b7a47a776510d7e11de"
+hash = "83a9010fd46fb9560b37cf343bbdcc88c902064b381884b0bb87cf1e28c80d5c"
 metafile = true
 
 [[files]]
@@ -197,5 +197,5 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/mellow.pw.toml"
-hash = "0554cbd2334107d7ca6ecf70ee0d2cde21ab11eb446c4550fe0e75c32000a6d8"
+hash = "6fa9ecb16d4230cfe0621d59cd2d85c321480ee4ca96952122fbdeea0f35e3fc"
 metafile = true

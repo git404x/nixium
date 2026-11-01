@@ -16,7 +16,7 @@ metafile = true
 
 [[files]]
 file = "mods/chest-locker.pw.toml"
-hash = "44951b3d855930519ae26bfe00851c616a1b7b0c0ce3283debb49c4216e8c73e"
+hash = "914299b49a5d319dbc2330f979f959517634f66188284ad1e18a1952f1b4ae24"
 metafile = true
 
 [[files]]
@@ -106,7 +106,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "c94c4440d991703ff18a8eaa2a4ec0a18b4a0078f694eb582ad6d530052f9cb7"
+hash = "bbaa85c3c6df3ae26e1416a92f3ecf9ff18850f479611299b67a828048edf466"
 metafile = true
 
 [[files]]
