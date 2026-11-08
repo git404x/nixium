@@ -37,7 +37,7 @@ metafile = true
 
 [[files]]
 file = "mods/entitytexturefeatures.pw.toml"
-hash = "455286c56edfbce43a74a6faaaa13609bac43c8da0210fca089c8fdc502fa0dd"
+hash = "688d1f35971279a5284779beb1d1ad8d8c10a786116a4f1f0ed5f919de71247d"
 metafile = true
 
 [[files]]
@@ -92,7 +92,7 @@ metafile = true
 
 [[files]]
 file = "mods/optigui.pw.toml"
-hash = "460aa9c8aaed3845f1c4f31e997991bcc92fafe4d5c25f79255f1e0ddec82eac"
+hash = "4266c458e024c6f836a6379cf3e9ed57bad057d77e58adf4288e789dd144fbce"
 metafile = true
 
 [[files]]
@@ -182,7 +182,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/fresh-animations.pw.toml"
-hash = "435a3f840613486ed00c68c6eea16324083b9a5a745503b22942d6b53c06b5ed"
+hash = "817c682d213e4d8ef43a4b1c674c17970b2368dee45b793f53e009f4f4a95384"
 metafile = true
 
 [[files]]
@@ -192,7 +192,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/rays-3d-rails.pw.toml"
-hash = "14f7f4a5fe0fe7862bb218312e8ae191980ebe7b9846b15a60c1ce31eb624521"
+hash = "04cd3ad21947f9ed59aede1cf4b887d05d84cd9569f7904f7a0c6988aa08e677"
 metafile = true
 
 [[files]]
