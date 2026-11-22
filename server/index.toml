@@ -11,7 +11,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "96e4f479ea795c338a36fc18a94df76f0770dee0c2f356a016cbd7536abdbc32"
+hash = "b08e58ba0a78e1bf3d71f54591dde304343f32283570f733f40645934f9d318c"
 metafile = true
 
 [[files]]
@@ -41,7 +41,7 @@ metafile = true
 
 [[files]]
 file = "mods/easyauth.pw.toml"
-hash = "a5f86e4aa224b91f2ac620f4e5316254c00b3f3e0b8265d6820f4354d2a0156a"
+hash = "982cf7e7db97dde32bd5968417aba70c48278326f8b2b6c295e6cab10e91a28c"
 metafile = true
 
 [[files]]
